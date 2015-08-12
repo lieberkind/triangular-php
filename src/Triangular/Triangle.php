@@ -104,6 +104,9 @@ class Triangle {
     /**
      * Determine whether the lengths of the sides can make up a valid triangle
      *
+     * For a triangle to be valid, the sum of the lengths of any two sides must
+     * be greater than the length of the third side
+     *
      * @param  integer|float $a
      * @param  integer|float $b
      * @param  integer|float $c
