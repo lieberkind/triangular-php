@@ -4,6 +4,11 @@
     "require-dev": {
         "phpunit/phpunit": "^4.8"
     },
+    "autoload": {
+        "psr-4": {
+            "Triangular\\": "src/Triangular"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
