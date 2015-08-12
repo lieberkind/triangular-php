@@ -14,7 +14,7 @@ Then, cd into the directory:
 cd triangular-php
 ```
 
-Assuming that php is running and in your path, you can now start testing out your triangles by running:
+Assuming that php is running and available in your path, you can now start testing out your triangles by running:
 
 ```bash
 php triangle.php 10 10 15
