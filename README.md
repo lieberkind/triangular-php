@@ -23,7 +23,7 @@ php triangle.php 10 10 15
 The three script arguments are, of course, the lengths of the triangles sides.
 
 ## Implementation
-The logic has been implemented in the Triangle class, located within the `src/Triangular` directory. When a new instance of `Triangle` is created the arguments are validated. Exceptions are thrown either if one or more of the arguments are not numeric, or if it is not possible to make a triangle from the three provided side lengths. The `Triangle` class has methods for testing whether an instance is equilateral, isosceles or scalene, as well as a method for getting the type of the triangle, which returns one of the three cases.
+The logic has been implemented in the `Triangle` class, located within the `src/Triangular` directory. When a new instance of `Triangle` is created the arguments are validated. Exceptions are thrown either if one or more of the arguments are not numeric, or if it is not possible to make a triangle from the three provided side lengths. The `Triangle` class has methods for testing whether an instance is equilateral, isosceles or scalene, as well as a method for getting the type of the triangle, which returns one of the three cases.
 
 ## Tests
 All methods of the `Triangle` class, including the constructor, have been unit tested. The test cases can be found in `tests/TriangleTest.php`. In order to run the tests, PHPUnit must be installed. Follow the steps below:
