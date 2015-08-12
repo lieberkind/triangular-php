@@ -1,5 +1,5 @@
 {
-    "name": "tomaslieberkind/triangular",
+    "name": "lieberkind/triangular",
     "description": "A class for doing calculation with triangles",
     "require-dev": {
         "phpunit/phpunit": "^4.8"
